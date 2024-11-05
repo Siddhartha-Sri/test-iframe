@@ -13,15 +13,14 @@ export default function Home() {
           priority
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
+          Hi My Name is Siddhartha
         </ol>
+        <div>
+          <iframe
+            src="https://dev.quidcashqa.in/?session=eyJhbGciOiJSUzI1NiIsImtpZCI6ImU2YWMzNTcyNzY3ZGUyNjE0ZmM1MTA4NjMzMDg3YTQ5MjMzMDNkM2IiLCJ0eXAiOiJKV1QifQ.eyJpZCI6OTc5LCJpc19yZXByZXNlbnRhdGl2ZSI6ZmFsc2UsInJlcHJlc2VudGF0aXZlX2lkIjpudWxsLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vcXVpZGNhc2gtZDVhODgiLCJhdWQiOiJxdWlkY2FzaC1kNWE4OCIsImF1dGhfdGltZSI6MTczMDc4NzAxMSwidXNlcl9pZCI6ImU4MjU3YzAyLTkyYzYtNDY4Yy05ZjM0LTBkZGNhNjk5NTAwNyIsInN1YiI6ImU4MjU3YzAyLTkyYzYtNDY4Yy05ZjM0LTBkZGNhNjk5NTAwNyIsImlhdCI6MTczMDc4NzAxMSwiZXhwIjoxNzMwNzkwNjExLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7fSwic2lnbl9pbl9wcm92aWRlciI6ImN1c3RvbSJ9fQ.HHESOmMBS1XPHnYRU3K6q80Reod79V811-EXswVC-GgPWK9CUaSaBH8LsqNrpkW5AMRwFnYb-Lbs65-TdO2dEJ7ElarCif4ZhKZRqXQPTu8N8fMNvvFFKc11Ru9tra5iLnhXba_xbG9s4sKpCQYzm2mnsoOVM67-qznaT9sj88XggyipY_sjG3mTfqhcrAfqqgbx3lGGYYH7Ab_ubANHx2kTloyq5gryWbpfvXP6nzZ607vc2uZr-clEOzWRQocdfF3quUlX7yI3LRXUivZGYCR4GDsnx9aiOU2qy_pcLZBkCbQxMocLH3MaDj1AdZuLnRQj1exNbKGU1JOKKddGpg"
+            className="h-[1000px] w-[550px]"
+          />
+        </div>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
