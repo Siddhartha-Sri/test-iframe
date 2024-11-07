@@ -15,87 +15,15 @@ export default function Home() {
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           Hi My Name is Siddhartha
         </ol>
+        
         <div>
           <iframe
-            src="https://pr-469.d1zvoni4pjwmzv.amplifyapp.com/hi?session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczMDkwMjMzNiwiZXhwIjoxNzMwOTA1OTM2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay01dDhoNkBxdWlkY2FzaC1kNWE4OC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLTV0OGg2QHF1aWRjYXNoLWQ1YTg4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiYzIwZjYyNmQtNWZlYi00ZjgxLWIyNWMtNWRlMGExMWE4bmlyIiwiY2xhaW1zIjp7ImlkIjoxOCwiaXNfcmVwcmVzZW50YXRpdmUiOmZhbHNlfX0.BBd63AaIfi0Hq01YmG4v9uV6HW-wIMvCm-vz2DyHmFl8po0V2ddFRtp6hgy1hvnnerHta7Vib3bhmBoLvKBlIAUsi7ztFSzMFq-CtrsHuaKyyzIHyEZp0OCg6aOO0S2oJk80h4_Zhyh4xU-AgjPHhMgP5mArYHZNM5DW89DE-C_y-OaYyA-wQRngKjn3gOksBea4FEmnqrXIWdyKujBvFTEJOt5dS6onVG379hJkH-sCesgohljSEaXwN1UBAyyoH_O9r822RGxhacUzGoo1-fCTmTGbKOt2UkJDc7QjnSCIpqpEYtxHNxo5oWv-ereLUJEPKIVmj8aOchlskQBV5A&retailer_id=18&iframe_instance='true'"
+            src="https://pr-469.d1zvoni4pjwmzv.amplifyapp.com/hi?session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczMDk3MzcwOCwiZXhwIjoxNzMwOTc3MzA4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1lamJxNEBxdWlkY2FzaC1hNzg0Ni5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWVqYnE0QHF1aWRjYXNoLWE3ODQ2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiNzY3NGQ5YTQtM2MzMS00ODQ5LWE0NzktNzA1N2FkZWRlNmFhIiwiY2xhaW1zIjp7ImlkIjo5OTF9fQ.LUzGDD7SjnOGhKCun6Cpr4xz2-J-1dzlWk2pohwtiQPXeT1AYGnpAHWILQo2GdKJ60dauFTpt_abgRsTzYoLKJioamfdZoj2MZc65bgBuSghSN8r1IKX3vRSN2qD5kKLfwOj2qt2SrPK10nz8N-bc7xW5pryI4QhWYfJztfLcn_c2I2YZL_CwBHuBOMwB4HI1fQ_EYpHYP8lAR0hZPSwRHblmsBc71u942e3qEkrUUT4fpttiRl__WNYY7P4iy8TQhtU2VaxudYvFBCP0yDswBk6TwEm_AsQhnshH5gUmpNpMJCTwx1xOSfl5kRwDVXpymfmnRJnodVxFDW18t1IFA&retailer_id=991&iframe_instance='true'"
             className="h-[1000px] w-[550px]"
             sandbox="allow-same-origin allow-scripts"
           />
         </div>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }
