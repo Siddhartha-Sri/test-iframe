@@ -17,11 +17,17 @@ export default function Home() {
         </ol>
 
         <div>
-          <iframe
+          {/* <iframe
             // src="https://qa.quidcashqa.in/hi?session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczMTQwNDcwMSwiZXhwIjoxNzMxNDA4MzAxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay01dDhoNkBxdWlkY2FzaC1kNWE4OC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLTV0OGg2QHF1aWRjYXNoLWQ1YTg4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiYzIwZjYyNmQtNWZlYi00ZjgxLWIyNWMtNWRlMGExMWE4bmlyIiwiY2xhaW1zIjp7ImlkIjoxOCwiaXNfcmVwcmVzZW50YXRpdmUiOmZhbHNlfX0.UdrrCWUfPeU9nl-GznePA-F53uFCRHGN2QaDCBXTl2IvscEPFeVgWmwdaO2SwlBtbTeamknOLCpY1c6zjBidaCl-mSsMoJqNzXfWXST_XKBzpknub0-YxGag8HAxWfWzQs1PwNmHAwGNxvmofzcFnTuO4f5jEmMFRwINAfHQMxvIO85-iT54LZGFFVAEfDV5t8cJ-VHUY-Evo_yrRejCFICKs-arPGK948aH6CUo2zgFs-UubTZKRbTFUgZLIyHt_KCN0QlE9lc7TaM_-UZxhrxAfh25GD37SEI1lVn8mw5-Tje5xhJJ3W4JcY19OJhO1-mPZXsEbLodPI5bJ3uftA&anchor_id=22&retailer_id=18&iframe_instance='true'"
             src="https://qa.quidcashqa.in/hi"
             className="h-[1000px] w-[550px]"
             sandbox="allow-same-origin allow-scripts allow-forms"
+          /> */}
+
+          <iframe
+            src="https://pr-469.d1zvoni4pjwmzv.amplifyapp.com/hi?session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczMTQ5Nzk5OCwiZXhwIjoxNzMxNTAxNTk4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay01dDhoNkBxdWlkY2FzaC1kNWE4OC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLTV0OGg2QHF1aWRjYXNoLWQ1YTg4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiZTYyNDdhYzgtMmFlZC00NGY0LWI3ZTMtNjFiOGJkMWJjOThkIiwiY2xhaW1zIjp7ImlkIjoxMDE0LCJpc19yZXByZXNlbnRhdGl2ZSI6ZmFsc2V9fQ.miTCb_Acp8gNziZC6Z137Bvzwie0--s1Lp2_ue7bILqBk7bjjKfvt7oWxAb6nJs1A-ayZxF1aXgT9rVQjOdsB2sh74G-W58tmnxc4eWVQbwUALgymJvJIcvBQNtLgO6pU2BLIfmtK0tFFFP8LkITakr0jtgKA2GdfBq6sGDQ0lSaBuU3e1Pok9ipT4WYe4GDi8pYcLEPgWTYW7iDOIBTPg0i0kMp2wEjLMOqe4LhBwvg--sPEttmlOjg_W9kJAXfrcrNRR6j2N_dy5SJaVoJVf6hEcoj3K5hgpzi7FzEiL8JxVS4VxZAXbRMXKSCBiL09_V2l4FrUNWDOlLQWpnnRA&retailer_id=1014&iframe_instance='true'"
+            className="h-[1000px] w-[550px]"
+            sandbox="allow-same-origin allow-scripts"
           />
 
           {/* <embed
@@ -30,7 +36,6 @@ export default function Home() {
             height="1000"
             type="text/html"
           /> */}
-
         </div>
       </main>
     </div>
