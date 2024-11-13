@@ -21,7 +21,7 @@ export default function Home() {
             // src="https://qa.quidcashqa.in/hi?session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczMTQwNDcwMSwiZXhwIjoxNzMxNDA4MzAxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay01dDhoNkBxdWlkY2FzaC1kNWE4OC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLTV0OGg2QHF1aWRjYXNoLWQ1YTg4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiYzIwZjYyNmQtNWZlYi00ZjgxLWIyNWMtNWRlMGExMWE4bmlyIiwiY2xhaW1zIjp7ImlkIjoxOCwiaXNfcmVwcmVzZW50YXRpdmUiOmZhbHNlfX0.UdrrCWUfPeU9nl-GznePA-F53uFCRHGN2QaDCBXTl2IvscEPFeVgWmwdaO2SwlBtbTeamknOLCpY1c6zjBidaCl-mSsMoJqNzXfWXST_XKBzpknub0-YxGag8HAxWfWzQs1PwNmHAwGNxvmofzcFnTuO4f5jEmMFRwINAfHQMxvIO85-iT54LZGFFVAEfDV5t8cJ-VHUY-Evo_yrRejCFICKs-arPGK948aH6CUo2zgFs-UubTZKRbTFUgZLIyHt_KCN0QlE9lc7TaM_-UZxhrxAfh25GD37SEI1lVn8mw5-Tje5xhJJ3W4JcY19OJhO1-mPZXsEbLodPI5bJ3uftA&anchor_id=22&retailer_id=18&iframe_instance='true'"
             src="https://qa.quidcashqa.in/hi"
             className="h-[1000px] w-[550px]"
-            sandbox="allow-same-origin allow-scripts"
+            sandbox="allow-same-origin allow-scripts allow-forms"
           />
         </div>
       </main>
