@@ -59,7 +59,7 @@ export default function Home() {
           <div className="flex gap-4">
             <div>
               <iframe
-                src="https://pr-544.d1zvoni4pjwmzv.amplifyapp.com/hi?session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczMTU4ODk5OCwiZXhwIjoxNzMxNTkyNTk4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay01dDhoNkBxdWlkY2FzaC1kNWE4OC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLTV0OGg2QHF1aWRjYXNoLWQ1YTg4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiYzIwZjYyNmQtNWZlYi00ZjgxLWIyNWMtNWRlMGExMWE4bmlyIiwiY2xhaW1zIjp7ImlkIjoxOCwiaXNfcmVwcmVzZW50YXRpdmUiOmZhbHNlfX0.hVn8H8z83tf9DwEPrnP0l8mZxYEKWI8f1iT_gWah0JMIbVehyDiBM4k5H8ruemmH_MYbnqM25WMeOTRcAZ1EE2S9De7Ikp_aFjTKTpeH3wPoIhp_32JPqIlI0F8mF6zuAmooe4A_OFRLb_RgLWz9HEYGoK1EldlPeSgGcCPG5rY39QJrOGyc1vOvxqP3wORMU09bnhIuuQHqnOpfWDlO2hhuo90ivw5-HFJb8Mq8h_T3cQQogku5SS1WjyBOoautxa4T0Pt5LyyWmpfYJbZKNzbFDdVfLV8gC49NN1U_MCkk2EdaLF-nBpKgyMs6w1bjhueip8MA5iO4xpQkNaKxEA&retailer_id=18&iframe_instance='true'"
+                src="https://pr-544.d1zvoni4pjwmzv.amplifyapp.com/hi?iframe_instance='true'"
                 className="h-[1000px] w-[550px]"
                 sandbox="allow-same-origin allow-scripts allow-forms"
               />
