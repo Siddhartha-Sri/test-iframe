@@ -62,7 +62,6 @@ export default function Home() {
                 src="https://qa.quidcashqa.in/hi&session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczMTU2MjU2MCwiZXhwIjoxNzMxNTY2MTYwLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay01dDhoNkBxdWlkY2FzaC1kNWE4OC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLTV0OGg2QHF1aWRjYXNoLWQ1YTg4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiZTYyNDdhYzgtMmFlZC00NGY0LWI3ZTMtNjFiOGJkMWJjOThkIiwiY2xhaW1zIjp7ImlkIjoxMDE0LCJpc19yZXByZXNlbnRhdGl2ZSI6ZmFsc2V9fQ.D1u5i9VYW8tnlnUir2vNurTnUW2pDEH2hlXJYWXsDCcJfuNSEN-uKCrb7FvaRSuO1saVJOZOIY0U0A3dsi6VVEUBe7DKHwzMdJ4jDAI-WKpaXif-gK8YK4AwgJN3ITAHWdfwK7NbISFeos3owxQ2ONB-UpFZO_2wdeNd8nnCuq51RTwoXY2g1VFLyUGe-PpiLLfLniyuPOOTiOYMfo2Cj4BPqVjiZf7Nqf3CfTAn_4YFV7YqtzqcE9V0Lumr3jjD9rYd8htofuV8poby--OR1T_CWA2-ZLUjWDosFYXQYqMSsL84_Gsdsyr8bpiKjeEliD_E8lqLQ26gUiQmO7JJZA&iframe_instance='true'"
                 className="h-[1000px] w-[550px]"
                 sandbox="allow-same-origin allow-scripts allow-forms allow-camera allow-geolocation"
-                allow=""
               />
             </div>
             <div></div>
