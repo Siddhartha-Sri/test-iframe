@@ -61,7 +61,7 @@ export default function Home() {
               <iframe
                 src="https://pr-544.d1zvoni4pjwmzv.amplifyapp.com/hi?iframe_instance='true'"
                 className="h-[1000px] w-[550px]"
-                sandbox="allow-same-origin allow-scripts allow-forms allow-camera allow-geolocation"
+                sandbox=" allow-scripts allow-forms"
               />
             </div>
             <div></div>
