@@ -1,4 +1,39 @@
 import Image from "next/image";
+import { useEffect } from "react";
+
+// Function to request camera access
+async function requestCameraAccess() {
+  try {
+      const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+      console.log("Camera access granted");
+      // Here, you could handle the video stream, e.g., passing it to the iframe if needed
+      return stream;
+  } catch (error) {
+      console.error("Camera access denied:", error);
+      return null;
+  }
+}
+
+// Function to request location access
+async function requestLocationAccess() {
+  return new Promise((resolve, reject) => {
+      if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(
+              position => resolve(position),
+              error => reject(error)
+          );
+      } else {
+          reject("Geolocation not supported");
+      }
+  });
+}
+
+useEffect(() => {
+  requestCameraAccess();
+  requestLocationAccess();
+})
+
+
 
 export default function Home() {
   return (
