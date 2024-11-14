@@ -1,8 +1,8 @@
+'use client'
 import Image from "next/image";
-import { useEffect } from "react";
 
 // Function to request camera access
-async function requestCameraAccess() {
+const requestCameraAccess = async ()  => {
   try {
       const stream = await navigator.mediaDevices.getUserMedia({ video: true });
       console.log("Camera access granted");
@@ -15,7 +15,7 @@ async function requestCameraAccess() {
 }
 
 // Function to request location access
-async function requestLocationAccess() {
+const requestLocationAccess = async ()  => {
   return new Promise((resolve, reject) => {
       if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(
@@ -28,10 +28,9 @@ async function requestLocationAccess() {
   });
 }
 
-useEffect(() => {
+
   requestCameraAccess();
   requestLocationAccess();
-})
 
 
 
