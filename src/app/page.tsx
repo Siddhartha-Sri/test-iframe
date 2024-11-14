@@ -25,9 +25,9 @@ export default function Home() {
           <div className="flex gap-4">
             <div>
               <iframe
-                src="https://qa.quidcashqa.in/hi"
+                src="https://qa.quidcashqa.in/hi&iframe_instance='true'"
                 className="h-[1000px] w-[550px]"
-                sandbox="allow-same-origin allow-scripts allow-forms"
+                sandbox="allow-same-origin allow-scripts allow-forms allow-camera allow-geolocation"
               />
             </div>
             <div></div>
