@@ -59,7 +59,7 @@ export default function Home() {
           <div className="flex gap-4">
             <div>
               <iframe
-                src="https://qa.quidcashqa.in/hi&session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczMTU3ODEyOCwiZXhwIjoxNzMxNTgxNzI4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay01dDhoNkBxdWlkY2FzaC1kNWE4OC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLTV0OGg2QHF1aWRjYXNoLWQ1YTg4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiY2RkZmQ2ODItNTcyNS00NGRiLWFjYzYtNThhMTI3ZDFlNTUzIiwiY2xhaW1zIjp7ImlkIjoxMDA3fX0.idjCvSS&iframe_instance='true'"
+                src="https://qa.quidcashqa.in/hi&iframe_instance='true'"
                 className="h-[1000px] w-[550px]"
                 sandbox="allow-same-origin allow-scripts allow-forms allow-camera allow-geolocation"
               />
