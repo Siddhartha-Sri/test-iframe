@@ -59,9 +59,10 @@ export default function Home() {
           <div className="flex gap-4">
             <div>
               <iframe
-                src="https://qa.quidcashqa.in/hi?session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczMTU5MTgwOCwiZXhwIjoxNzMxNTk1NDA4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay01dDhoNkBxdWlkY2FzaC1kNWE4OC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLTV0OGg2QHF1aWRjYXNoLWQ1YTg4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiZTYyNDdhYzgtMmFlZC00NGY0LWI3ZTMtNjFiOGJkMWJjOThkIiwiY2xhaW1zIjp7ImlkIjoxMDE0LCJpc19yZXByZXNlbnRhdGl2ZSI6ZmFsc2V9fQ.HlF4rrMHF3rICx5slvU7sWhpoyu2l65RNzceFKrY0nvrxtQAxLl47IY-Ajoyy8mgnpR7L18mPTq_v-81f034VwbKzFm9p-4AKa7-IAb-4DCEoL6IzniEMmu59cIklyMMlpjc_9pMdfTQ0J9fIswzN11gBuiJm5al8cxhbUIziqmgEsEiVv2seRo7JI2bXnNPb-IO3noeYxrpTgIlufYp3aEVrVcNu_BqdcJooEAt_ZsVgfvPjupCQ8rlgKuPebSqYkGmZgeT3bm1GW6HKwFQyjXalH8waq1lpEPeIpT6XN3O1MPMczS2D66WuRpBpMiSYVliGDTojXTmv49h0261Kg&iframe_instance='true'"
+                src="https://qa.quidcashqa.in/hi?iframe_instance='true'"
                 className="h-[1000px] w-[550px]"
-                sandbox="allow-same-origin allow-scripts allow-forms"
+                sandbox="allow-scripts allow-forms allow-same-origin"
+                allow="camera; geolocation;"
               />
             </div>
             <div></div>
