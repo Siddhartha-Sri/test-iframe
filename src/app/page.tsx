@@ -33,7 +33,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className=" w-full grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
@@ -53,13 +53,13 @@ export default function Home() {
             className="h-[1000px] w-[550px]"
             sandbox="allow-same-origin allow-scripts allow-forms"
           /> */}
-          <div className="flex gap-4 w-full h-full">
+          <div className="flex gap-4">
             <div>
               <iframe
                 src="https://portal.quidcashqa.in/auth/login?session="
                 // src="https://pr-559.d1zvoni4pjwmzv.amplifyapp.com/hi?iframe_instance='true'"
                 // src="https://qa.quidcashqa.in/hi?session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczMTY1MTUwOSwiZXhwIjoxNzMxNjU1MTA5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay01dDhoNkBxdWlkY2FzaC1kNWE4OC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLTV0OGg2QHF1aWRjYXNoLWQ1YTg4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiYzIwZjYyNmQtNWZlYi00ZjgxLWIyNWMtNWRlMGExMWE4bmlyIiwiY2xhaW1zIjp7ImlkIjoxOCwiaXNfcmVwcmVzZW50YXRpdmUiOmZhbHNlfX0.ANB1jDURFJ2e3LqBigwAgwirXxlwUIAxIFJrKm7XgAj2UrwTI1Xehd53Ph2FZHal-1JNi25SwnnRAfuxvzY8MaC4I4N8CNQFx39ME8LlIH8wyd9k_OqQB1EvCJuF0FY02hPenD7kEyTNzIB-yJMTNYOF0bBdEipMYxvGkCB9X0vz2dNbq54VGabL_QOnbVPhx4UsyONsTF52NTPTKlfHqZkQuZDVTlOiPH475yDZUovPfwj8ap2Xw0HEQdD9hMg9NaX2BFb2WDYZg4uyU_gHl-5LAoa8VZKQHoVIH11K-sdfLYgiLM7oB6uTcjuThDZkrX5TTOoXEhghECaZ2sYs-w&retailer_id=18&iframe_instance='true'"
-                className="min-w-[70%] max-h-[60%] h-full w-full"
+                className="h-[1000px] w-[1500px]"
                 // sandbox="allow-scripts allow-forms allow-same-origin"
                 sandbox="allow-scripts allow-forms allow-same-origin allow-downloads allow-popups encrypted-media"
                 allow="camera; geolocation;"
