@@ -60,7 +60,7 @@ export default function Home() {
                 src="https://qa.quidcashqa.in/hi?session=&iframe_instance='true'"
                 className="h-[1000px] w-[550px]"
                 sandbox="allow-scripts allow-forms allow-same-origin allow-downloads allow-popups encrypted-media"
-                allow="camera; geolocation; vercel.app;"
+                allow="camera; geolocation; https://vercel.com;"
               />
               {/* <iframe
                 src="https://portal.quidcashqa.in/auth/login?iframe_instance=true"
