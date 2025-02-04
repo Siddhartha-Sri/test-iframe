@@ -2,34 +2,34 @@
 import Image from "next/image";
 
 // Function to request camera access
-// const requestCameraAccess = async () => {
-//   try {
-//     const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-//     console.log("Camera access granted");
-//     // Here, you could handle the video stream, e.g., passing it to the iframe if needed
-//     return stream;
-//   } catch (error) {
-//     console.error("Camera access denied:", error);
-//     return null;
-//   }
-// };
+const requestCameraAccess = async () => {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+    console.log("Camera access granted");
+    // Here, you could handle the video stream, e.g., passing it to the iframe if needed
+    return stream;
+  } catch (error) {
+    console.error("Camera access denied:", error);
+    return null;
+  }
+};
 
 // Function to request location access
-// const requestLocationAccess = async () => {
-//   return new Promise((resolve, reject) => {
-//     if (navigator.geolocation) {
-//       navigator.geolocation.getCurrentPosition(
-//         (position) => resolve(position),
-//         (error) => reject(error)
-//       );
-//     } else {
-//       reject("Geolocation not supported");
-//     }
-//   });
-// };
+const requestLocationAccess = async () => {
+  return new Promise((resolve, reject) => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => resolve(position),
+        (error) => reject(error)
+      );
+    } else {
+      reject("Geolocation not supported");
+    }
+  });
+};
 
-// requestCameraAccess();
-// requestLocationAccess();
+requestCameraAccess();
+requestLocationAccess();
 
 export default function Home() {
   return (
@@ -57,7 +57,7 @@ export default function Home() {
             {/* eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczMzQxMDE1OSwiZXhwIjoxNzMzNDEzNzU5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay01dDhoNkBxdWlkY2FzaC1kNWE4OC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLTV0OGg2QHF1aWRjYXNoLWQ1YTg4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiM2NhZjJkM2YtZDZhYy00ZmU0LWEwZGEtNTc5ODViNDQ3NDkxIiwiY2xhaW1zIjp7ImlkIjoxMDc4LCJpc19yZXByZXNlbnRhdGl2ZSI6ZmFsc2V9fQ.O4H49Y4iainDmXl9XG3tRDovXyi_tIaYqZIQqL-nGuKkuRb14uDKQuA_kHS2l6UTOpm8Q5csRfV0bEoMDQSks5uz74atVjwom2eVSFdOPkgi0vKYSHjpECI8RhQDOX5iydNHn9JYEONMZ3Gs3HXZQmPheQLBtz30ZeS6ii4-t0wvhtSKE0Mz3GJLkthvrfXeWHTUzxGwdnNZ41mk03gNqktOEtq7-JBZSTLCyrDj2gyJv6Q3Kf02Iavn4vq7Ffz7PsU0UemqITw_q72U9DFSlQuXebMDEYWw_KY0gwSfpUtb-eBCWEnW9mBnP_Zybj3Xw72HUuEudICdP-UlPNXHwA */}
             <div>
               <iframe
-                src="https://pr-733.d1zvoni4pjwmzv.amplifyapp.com/invoices/dashboard?anchor_id=11&retailer_id=18&session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczODYwNDc3NCwiZXhwIjoxNzM4NjA4Mzc0LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay01dDhoNkBxdWlkY2FzaC1kNWE4OC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLTV0OGg2QHF1aWRjYXNoLWQ1YTg4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiYzIwZjYyNmQtNWZlYi00ZjgxLWIyNWMtNWRlMGExMWE4bmlyIiwiY2xhaW1zIjp7ImlkIjoxOH19.gvzMIpKd7Zljbd7JJqM69lu3-uez7TG4Y8AfMqzrQBWUfT-BJTsSH8CQYD7d5TNwWpzv2MZfQ4ug3cgyEW-VdJP_uIG1L1p1SnqR6rpLuP4j5yIjqd6AvO4XhXa_IXDFi7Pm21i0hfXORE2N61DrCQ8hVrKSTMFqyZfXMTT36AcFhJUqHW2oehMM21XI0t0Hj7M96f-TV-RHe5CsCoVrrvujoH5a4_jzpg76sD7gr4Kkyv9SEKIxEhYXXgQBae5BWyt0Xc28CjUkLoXtM9ZuEKcsOQQdnI847zU_De6PylMIWfpcBlALmlOIRDol_fPuQGQKsJ9_6ia0LQudqxLyFw&iframe_instance=true"
+                src="https://pr-733.d1zvoni4pjwmzv.amplifyapp.com/invoices/dashboard?anchor_id=24&retailer_id=1108&session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczODY1OTE5NSwiZXhwIjoxNzM4NjYyNzk1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay01dDhoNkBxdWlkY2FzaC1kNWE4OC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLTV0OGg2QHF1aWRjYXNoLWQ1YTg4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiNjY2YTc2ZjAtODBhMi00Yzk0LTljNWUtNjlhMzFhODU2MTZkIiwiY2xhaW1zIjp7ImlkIjoxMTA4fX0.F7bqbGv6dnpBSo-wGnZoAj8tke_2_5xPfY8CW4CATXqtJMIbyy58896p7Fh2zWbMb6251q4jJjZPUYdiy1k8HeTMsM-2KdnQkUoOVOoQ6HaN236udUxStVEKnBLf4GBeAVT2UWl1-5GbXqsfRC1V6ic7niZh4Lpo64PYaPfpC0fceolrYeSCxR3lXzL1RBv9JgVQpKKAW2TxZ6QQ1TtxLEExMnWEaW1QJRnAvqs5-rLDQgXBgMKT6T_hKbJHW3b3qxVcsyfWWds_xatZhJF1MQ66u6USDSbYHCEnoonWKUpZEU6YUADDoTpVUlfdBuVz9XqckS-CzUSMi3xoymZU8w&iframe_instance=true"
                 className="h-[1000px] w-[550px]"
                 sandbox="allow-scripts allow-forms allow-same-origin allow-downloads allow-popups encrypted-media"
                 allow="camera; geolocation;"
