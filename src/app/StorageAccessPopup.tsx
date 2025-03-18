@@ -29,7 +29,9 @@ const StorageAccessPopup: React.FC = () => {
       console.error(":x: Storage access denied!", error);
     }
   };
-  if (accessGranted) return null; // Hide popup if access is already granted
+  if (accessGranted) console.log("hi"); // Hide popup if access is already granted
+
+  console.log("augdfauwfgp8ywd")
   return (
     <>
       {showPopup && (
