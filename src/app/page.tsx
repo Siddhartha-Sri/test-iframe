@@ -3,34 +3,34 @@ import Image from "next/image";
 import StorageAccessPopup from "./showpopup/page";
 
 // Function to request camera access
-const requestCameraAccess = async () => {
-  try {
-    const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-    console.log("Camera access granted");
-    // Here, you could handle the video stream, e.g., passing it to the iframe if needed
-    return stream;
-  } catch (error) {
-    console.error("Camera access denied:", error);
-    return null;
-  }
-};
+// const requestCameraAccess = async () => {
+//   try {
+//     const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+//     console.log("Camera access granted");
+//     // Here, you could handle the video stream, e.g., passing it to the iframe if needed
+//     return stream;
+//   } catch (error) {
+//     console.error("Camera access denied:", error);
+//     return null;
+//   }
+// };
 
 // Function to request location access
-const requestLocationAccess = async () => {
-  return new Promise((resolve, reject) => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => resolve(position),
-        (error) => reject(error)
-      );
-    } else {
-      reject("Geolocation not supported");
-    }
-  });
-};
+// const requestLocationAccess = async () => {
+//   return new Promise((resolve, reject) => {
+//     if (navigator.geolocation) {
+//       navigator.geolocation.getCurrentPosition(
+//         (position) => resolve(position),
+//         (error) => reject(error)
+//       );
+//     } else {
+//       reject("Geolocation not supported");
+//     }
+//   });
+// };
 
-requestCameraAccess();
-requestLocationAccess();
+// requestCameraAccess();
+// requestLocationAccess();
 
 // const session = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTc0MjI5MjQ5NiwiZXhwIjoxNzQyMjk2MDk2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay01dDhoNkBxdWlkY2FzaC1kNWE4OC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLTV0OGg2QHF1aWRjYXNoLWQ1YTg4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiY2I2MmU1NTMtNjgwYy00NzllLWEzNDItMzg4ZDU4NTRkYmExIiwiY2xhaW1zIjp7ImlkIjoxMTQ2fX0.MD2KxLgBHLwZ7Hscludd_hPZ3mqR2gU_DMn0nMHVc5sCzg7u1PyGvz9abZRxJFMNN9jsVDo-2Di2aStx_n2fPWWq2NhqJ2i5BHp4Z8gT6l8QyejjldVpEqjKKbM9kODaZb9XVQezSGfEB48b3LP3C5OjpAxqL7ewjkXxLMRuRgEufTBw1RLH9vy5i9_nwxuaCim63UlHQ0lCpiCB3ZoqtLGzDiSzuHGLQIC2rgV5xJcNWywQggP1TSqekK2r8CuIPnrb_o4Iq-JmFt0nejleCPec4B318WU5BJAwW_UC4lnu7jvi2M0yshGjprWpLzTABvy7nJlpczKnGXHLEYOsig"
 
