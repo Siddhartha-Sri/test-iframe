@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import StorageAccessPopup from "./showpopup/page";
 
 // Function to request camera access
 const requestCameraAccess = async () => {
@@ -48,6 +49,7 @@ export default function Home() {
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           Hi My Name is Siddhartha
         </ol>
+        <StorageAccessPopup />
 
         <div>
           {/* <iframe
