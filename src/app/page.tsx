@@ -61,7 +61,7 @@ export default function Home() {
               <iframe
                 src={`https://qa.quidcashqa.in/hi/invoices/dashboard?anchor_id=29&retailer_id=1146&session=${session}&iframe_instance=true`}
                 className="h-[1000px] w-[550px]"
-                sandbox="allow-scripts allow-forms allow-same-origin allow-downloads allow-popups encrypted-media"
+                sandbox="allow-scripts allow-forms allow-same-origin allow-downloads allow-popups"
                 allow="camera; geolocation; storage-access;"
               />
               {/* <iframe
