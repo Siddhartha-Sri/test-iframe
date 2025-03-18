@@ -1,14 +1,16 @@
 'use client'
 import React, { useState, useEffect } from "react";
 const StorageAccessPopup: React.FC = () => {
-  // const [showPopup, setShowPopup] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
   const [accessGranted, setAccessGranted] = useState(false);
   useEffect(() => {
     // Check if Storage Access API is available in Safari
     if (document.hasStorageAccess) {
+      setShowPopup(true);
       document.hasStorageAccess().then((hasAccess) => {
+
         if (!hasAccess) {
-          // setShowPopup(true);
+          
           console.log("ougu") // Show popup if access is not granted
         } else {
           setAccessGranted(true);
@@ -24,7 +26,7 @@ const StorageAccessPopup: React.FC = () => {
       }
       await document.requestStorageAccess(); // This must be triggered by user interaction
       setAccessGranted(true);
-      // setShowPopup(false);
+      setShowPopup(false);
       console.log(":white_check_mark: Storage access granted!");
     } catch (error) {
       console.error(":x: Storage access denied!", error);
@@ -35,7 +37,7 @@ const StorageAccessPopup: React.FC = () => {
   console.log("augdfauwfgp8ywd")
   return (
     <>
-      {/* {showPopup && ( */}
+      {showPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <h2 className="text-lg font-bold mb-2">Enable Storage Access</h2>
@@ -50,7 +52,7 @@ const StorageAccessPopup: React.FC = () => {
             </button>
           </div>
         </div>
-      {/* )} */}
+      )}
     </>
   );
 };
