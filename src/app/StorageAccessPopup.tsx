@@ -18,6 +18,7 @@ const StorageAccessPopup: React.FC = () => {
       });
     }
   }, []);
+  
   const requestStorageAccess = async () => {
     try {
       if (!document.requestStorageAccess) {

@@ -63,8 +63,8 @@ export default function Home() {
               <iframe
                 src={`https://qa.quidcashqa.in/hi/invoices/dashboard?anchor_id=29&retailer_id=1146&iframe_instance=true`}
                 className="h-[1000px] w-[550px]"
-                sandbox="allow-scripts allow-forms allow-same-origin allow-downloads allow-popups"
-                allow="camera; geolocation; storage-access;"
+                sandbox="allow-scripts allow-forms allow-same-origin allow-downloads allow-popups allow-storage-access-by-user-activation"
+                allow="camera; geolocation; "
               />
               {/* <iframe
                 src="https://portal.quidcashqa.in/auth/login?session=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTczNjk0ODkzMywiZXhwIjoxNzM2OTUyNTMzLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1rMXg5ZEBiYWNrb2ZmaWNlLTgxMDE0LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwic3ViIjoiZmlyZWJhc2UtYWRtaW5zZGstazF4OWRAYmFja29mZmljZS04MTAxNC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInVpZCI6IjA5NDY3ZDY0LWZjNGYtNDNlNS05NWRlLTVlNzllZjQzMjcxOCIsImNsYWltcyI6eyJ1dWlkIjoiMDk0NjdkNjQtZmM0Zi00M2U1LTk1ZGUtNWU3OWVmNDMyNzE4In19.pJ-uFH210VCNO9x2MLIJGnjR5F6SAjTZZ60IFSgYifGS1u-iihczUJjkNLrDXl450laDa06dvmwI94ezFaxjBG_CYwB_9fDVUPBIEAQ27A4-jxp6Wyr9AdH1tZh-td-0z1p4jfAoxkT51CsBOS0BpyQPjDSLUFVsk9ElgG3zsNTYH_hVFCe7tJuI1Xa-AWGRZXQ4ZCC0SeJYQ_FhoNuyXALUlTKwrn_uiwPI8GsORfCeGsBBFAqLOxMi4aMsLjddIT14Zir3KWAXcinpxNWNM1lGsQO7zSYhSQ7acIrAgRU9o49hrVrRRIsXAcMnpnwWe_oNDtruTwTKpMOn4Suhjg&iframe_instance=true"
