@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import StorageAccessPopup from "./showpopup/page";
+import StorageAccessPopup from "./StorageAccessPopup";
 
 // Function to request camera access
 // const requestCameraAccess = async () => {
